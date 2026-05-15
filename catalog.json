@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Java 8 (New)",
+    "url": "https://www.shl.com/en/assessments/java-8/",
+    "test_type": "K",
+    "description": "Measures Java 8 knowledge, including lambda expressions, streams, and new API features."
+  },
+  {
+    "name": "OPQ32r",
+    "url": "https://www.shl.com/en/assessments/opq32r/",
+    "test_type": "P",
+    "description": "Occupational Personality Questionnaire measuring 32 distinct personality traits relevant to occupational settings."
+  }
+]
