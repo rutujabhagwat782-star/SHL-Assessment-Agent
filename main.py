@@ -64,6 +64,16 @@ Respond strictly matching the output schema. Ensure URLs and Names match the cat
 If you are still gathering context, 'recommendations' MUST be an empty list [].
 """
 
+@app.get("/")
+def root():
+    """Root endpoint - welcome message."""
+    return {
+        "message": "SHL Assessment Agent API is running!",
+        "docs": "/docs",
+        "health": "/health",
+        "chat": "/chat"
+    }
+
 @app.get("/health")
 def health_check():
     """Health check endpoint required by the evaluator."""
